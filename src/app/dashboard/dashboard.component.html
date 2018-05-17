@@ -1,0 +1,140 @@
+<div class="grid-container">
+  <h1 class="mat-h1">Dashboard</h1>
+  <mat-grid-list cols="2" rowHeight="350px">
+    <!--<mat-grid-tile *ngFor="let card of cards" [colspan]="card.cols" [rowspan]="card.rows">-->
+    <!--<mat-card class="dashboard-card">-->
+    <!--<mat-card-header>-->
+    <!--<mat-card-title>-->
+    <!--{{card.title}}-->
+    <!--<button mat-icon-button class="more-button" [matMenuTriggerFor]="menu" aria-label="Toggle menu">-->
+    <!--<mat-icon>more_vert</mat-icon>-->
+    <!--</button>-->
+    <!--<mat-menu #menu="matMenu" xPosition="before">-->
+    <!--<button mat-menu-item>Expand</button>-->
+    <!--<button mat-menu-item>Remove</button>-->
+    <!--</mat-menu>-->
+    <!--</mat-card-title>-->
+    <!--</mat-card-header>-->
+    <!--<mat-card-content class="dashboard-card-content">-->
+    <!--<div>{{card.content}}</div>-->
+    <!--</mat-card-content>-->
+    <!--</mat-card>-->
+    <!--</mat-grid-tile>-->
+    <!--</mat-grid-list>-->
+
+    <!--Code 4 Good-->
+    <mat-grid-tile [colspan]="2" [rowspan]="1">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <mat-card-title>
+            Code 4 Good
+            <button mat-icon-button class="more-button" [matMenuTriggerFor]="menu" aria-label="Toggle menu">
+              <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu" xPosition="before">
+              <button mat-menu-item>Expand</button>
+              <button mat-menu-item>Remove</button>
+            </mat-menu>
+          </mat-card-title>
+        </mat-card-header>
+
+        <mat-card-content class="dashboard-card-content">
+          <!--More content goes here-->
+          <div>Our Goal...</div>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+    <!--/Code 4 Good-->
+
+    <!--Systers-->
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <mat-card-title>
+            Systers
+            <button mat-icon-button class="more-button" [matMenuTriggerFor]="menu" aria-label="Toggle menu">
+              <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu" xPosition="before">
+              <button mat-menu-item>Expand</button>
+              <button mat-menu-item>Remove</button>
+            </mat-menu>
+          </mat-card-title>
+        </mat-card-header>
+
+        <mat-card-content class="dashboard-card-content">
+          <!--More content goes here-->
+          <div>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+            Why do we use it?
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+    <!--/Systers-->
+
+    <!--Misos-->
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <mat-card-title>
+            Misos
+            <button mat-icon-button class="more-button" [matMenuTriggerFor]="menu" aria-label="Toggle menu">
+              <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu" xPosition="before">
+              <button mat-menu-item>Expand</button>
+              <button mat-menu-item>Remove</button>
+            </mat-menu>
+          </mat-card-title>
+        </mat-card-header>
+
+        <mat-card-content class="dashboard-card-content">
+          <!--More content goes here-->
+          <div>
+
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+            Why do we use it?
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+    <!--/Systers-->
+
+    <!--More tiles here-->
+    <!--<mat-grid-tile [colspan]="1" [rowspan]="1">-->
+      <!--<mat-card class="dashboard-card">-->
+        <!--<mat-card-header>-->
+          <!--<mat-card-title>-->
+            <!--Misos-->
+            <!--<button mat-icon-button class="more-button" [matMenuTriggerFor]="menu" aria-label="Toggle menu">-->
+              <!--<mat-icon>more_vert</mat-icon>-->
+            <!--</button>-->
+            <!--<mat-menu #menu="matMenu" xPosition="before">-->
+              <!--<button mat-menu-item>Expand</button>-->
+              <!--<button mat-menu-item>Remove</button>-->
+            <!--</mat-menu>-->
+          <!--</mat-card-title>-->
+        <!--</mat-card-header>-->
+
+        <!--<mat-card-content class="dashboard-card-content">-->
+          <!--&lt;!&ndash;More content goes here&ndash;&gt;-->
+          <!--<div>-->
+
+            <!--Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.-->
+
+            <!--Why do we use it?-->
+            <!--It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).-->
+
+          <!--</div>-->
+        <!--</mat-card-content>-->
+      <!--</mat-card>-->
+    <!--</mat-grid-tile>-->
+  </mat-grid-list>
+</div>
